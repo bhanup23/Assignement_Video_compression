@@ -1,0 +1,46 @@
+{
+  "_readme": "Your segments_kept.json must match this structure exactly. The Sentio Mind pipeline reads this file to skip re-scanning the raw video. Do not add, remove, or rename any top-level key.",
+
+  "source_video": "video_sample_1.mov",
+  "compressed_video": "compressed_output.mp4",
+  "original_size_mb": 0.0,
+  "compressed_size_mb": 0.0,
+  "reduction_pct": 0.0,
+  "original_duration_sec": 0.0,
+  "compressed_duration_sec": 0.0,
+  "original_fps": 0.0,
+  "output_fps": 12,
+  "frames_original": 0,
+  "frames_kept": 0,
+  "processing_time_sec": 0.0,
+
+  "segments": [
+    {
+      "segment_id": 1,
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "frames_in_segment": 0,
+      "reason_kept": "face_detected",
+      "_note_reason": "one of: face_detected / motion_above_threshold / context_frame / face_and_motion",
+      "face_count_in_segment": 0,
+      "motion_score_avg": 0.0,
+      "thumbnail_b64": "BASE64_JPEG_OF_FIRST_FRAME_IN_SEGMENT"
+    },
+    {
+      "segment_id": 2,
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "frames_in_segment": 0,
+      "reason_kept": "context_frame",
+      "face_count_in_segment": 0,
+      "motion_score_avg": 0.0,
+      "thumbnail_b64": "BASE64_JPEG_OF_FIRST_FRAME_IN_SEGMENT"
+    }
+  ],
+
+  "frames_discarded_reasons": {
+    "near_duplicate_phash": 0,
+    "low_motion_no_face": 0,
+    "total_discarded": 0
+  }
+}
