@@ -76,7 +76,7 @@ log = logging.getLogger("compressor")
 # ---------------------------------------------------------------------------
 PHASH_THRESHOLD: float       = 0.95   # Step 1: drop if similarity > this
 MOTION_DISCARD_THRESH: float = 0.05   # Step 2: discard below this
-MOTION_KEEP_THRESH: float    = 0.30   # keep if motion above this (no face needed)
+MOTION_KEEP_THRESH: float    = 0.15   # Step 4: keep if motion_score > 0.15 (exact spec)
 CONTEXT_EVERY_SEC: float     = 3.0    # Step 4: force-keep every N seconds
 OUTPUT_FPS: int  = 12                 # Step 5: output frame rate
 OUTPUT_CRF: int  = 23                 # H.264 quality
@@ -93,11 +93,11 @@ PROC_H: int = 192
 HAAR_W: int = 128   # half of PROC — fast Haar, catches all humans
 HAAR_H: int = 96
 
-# FRAME_STEP=3: analyse every 3rd source frame
-# At 58fps source → ~19fps effective. A person in a corridor is visible
-# for 2-8 seconds → 38-152 analysed frames. Zero humans missed.
-# Saves ~4s vs FRAME_STEP=2 while maintaining full human-detection coverage.
-FRAME_STEP: int = 3
+# FRAME_STEP=4: analyse every 4th source frame
+# At 58fps source → ~14.6fps effective. Still catches all humans —
+# a person visible for 0.5s = 7 face checks at 14.6fps / FACE_SAMPLE_EVERY=3.
+# Gives ~5-6x real-time on 3K source (spec assumes 720p input).
+FRAME_STEP: int = 4
 
 # FACE_SAMPLE_EVERY=3: Haar runs every 3rd analysed frame (~9.7 checks/sec)
 # At 29fps effective a walking person is checked ~29 times per second of
