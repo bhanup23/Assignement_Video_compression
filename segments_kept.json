@@ -1,0 +1,296 @@
+[
+  {
+    "frame_index": 0,
+    "timestamp_sec": 0.0,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 885,
+    "timestamp_sec": 15.1245,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 1005,
+    "timestamp_sec": 17.1752,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.354723,
+    "face_detected": false
+  },
+  {
+    "frame_index": 1182,
+    "timestamp_sec": 20.2001,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 1359,
+    "timestamp_sec": 23.225,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 1998,
+    "timestamp_sec": 34.1454,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2067,
+    "timestamp_sec": 35.3246,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.378286,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2073,
+    "timestamp_sec": 35.4271,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.429339,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2145,
+    "timestamp_sec": 36.6576,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.333068,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2217,
+    "timestamp_sec": 37.8881,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.304996,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2394,
+    "timestamp_sec": 40.9129,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2589,
+    "timestamp_sec": 44.2455,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2631,
+    "timestamp_sec": 44.9632,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.425287,
+    "face_detected": false
+  },
+  {
+    "frame_index": 2808,
+    "timestamp_sec": 47.9881,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 3171,
+    "timestamp_sec": 54.1917,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 3348,
+    "timestamp_sec": 57.2166,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 3555,
+    "timestamp_sec": 60.7542,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 3603,
+    "timestamp_sec": 61.5745,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.420308,
+    "face_detected": false
+  },
+  {
+    "frame_index": 3888,
+    "timestamp_sec": 66.4451,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4065,
+    "timestamp_sec": 69.47,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4080,
+    "timestamp_sec": 69.7263,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.451692,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4092,
+    "timestamp_sec": 69.9314,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.447187,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4134,
+    "timestamp_sec": 70.6492,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.395207,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4194,
+    "timestamp_sec": 71.6746,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.47127,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4371,
+    "timestamp_sec": 74.6994,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4662,
+    "timestamp_sec": 79.6726,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4689,
+    "timestamp_sec": 80.134,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.597616,
+    "face_detected": false
+  },
+  {
+    "frame_index": 4866,
+    "timestamp_sec": 83.1589,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 5043,
+    "timestamp_sec": 86.1838,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 5259,
+    "timestamp_sec": 89.8752,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 5436,
+    "timestamp_sec": 92.9001,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 5586,
+    "timestamp_sec": 95.4635,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.328326,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6081,
+    "timestamp_sec": 103.923,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6204,
+    "timestamp_sec": 106.025,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.452148,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6276,
+    "timestamp_sec": 107.2555,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.558341,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6297,
+    "timestamp_sec": 107.6144,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.534852,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6387,
+    "timestamp_sec": 109.1525,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.342881,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6675,
+    "timestamp_sec": 114.0743,
+    "reason": "context_frame",
+    "motion_score": 0.0,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6843,
+    "timestamp_sec": 116.9454,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.350915,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6936,
+    "timestamp_sec": 118.5347,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.348017,
+    "face_detected": false
+  },
+  {
+    "frame_index": 6969,
+    "timestamp_sec": 119.0987,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.438819,
+    "face_detected": false
+  },
+  {
+    "frame_index": 7080,
+    "timestamp_sec": 120.9957,
+    "reason": "motion_above_threshold",
+    "motion_score": 0.353323,
+    "face_detected": false
+  }
+]
